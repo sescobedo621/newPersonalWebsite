@@ -5,13 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="MDB_3.3.3/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="MDB_3.3.3/css/mdb.css">
 	<link rel="stylesheet" type="text/css" href="MDB_3.3.3/css/mdb.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link href="MDB_3.3.3/css/style.css" rel="stylesheet">
+
 </head>
-<body>
+<body cz-shortcut-listen="true">
 <header>
        
         <!--Navigation-->
-        <nav class="navbar default-color">
+        <nav class="navbar default-color navbar-fixed-top z-depth-1">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -20,13 +21,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand waves-effect waves-light" href="#">Shelby Escobedo</a>
+                    <a class="navbar-brand waves-effect waves-light" href="index.html">Shelby Escobedo</a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#" class="waves-effect waves-light">Resume<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#" class="waves-effect waves-light">Portfolio</a></li>
+                        <li><a href="#" class="waves-effect waves-light">Resume</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
@@ -42,9 +42,17 @@
             </div>
         </nav>
         <!--/.Navigation-->
-
     </header>
- 
+ <section id="intro" class="full-bg-img">
+        <div class="container">
+            <div class="verticalcenter text-center white-text">
+                <h1>Shelby Escobedo</h1>
+                <h3>Full Stack Developer</h3>
+                <!--Call to action buttons-->
+                <a href="" class="btn btn-primary waves-effect waves-light">Contact Me</a>
+            </div>
+        </div>
+    </section>
 	 <main>
        
         <!--Main Container-->
@@ -77,11 +85,34 @@
             </div>
             <!--/.First Row-->
             
-            <!--Second Row-->
+           <!--Second Row-->
             <div class="row">
 
                 <!--First Column-->
                 <div class="col-md-4">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-responsive" alt="">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                       <div class="card-content">
+                            <h5>SuperWiki</h5>
+                            <p>SuperWiki is a superhero Wikipedia site and fan forum. Users can add their favorite superheros and villains, update any incorrect information, and talk with fellow fans about their favorite superhero. It is made with Java, Spring MVC, JPA, MYSQl for the database, with HTML, CSS, and Bootstrap in the front-end.</p>
+                        </div>
+                        <!--Buttons-->
+                        <div class="card-btn text-center">
+                            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Website</a>
+                            <a href="#" class="btn btn-default btn-md waves-effect waves-light">Github</a>
+                        </div>
+                        <!--/.Buttons-->
+                    </div>
+                    <!--Image Card-->
 
                 </div>
                 <!--/.First Column-->
@@ -89,11 +120,149 @@
                 <!--Second Column-->
                 <div class="col-md-4">
 
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-responsive" alt="">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h5>getFit</h5>
+                            <p>getFit will keep track of daily exercise routines. Users can follow of all of their previous exercises. They can also see their average daily steps. getFit was made with Java REST and MYSQL database for the backend. It uses JavaScript DOM, HTML, and CSS for the front-end.</p>
+                        </div>
+                        <!--Buttons-->
+                        <div class="card-btn text-center">
+                            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Website</a>
+                            <a href="#" class="btn btn-default btn-md waves-effect waves-light">Github</a>
+                        </div>
+                        <!--/.Buttons-->
+                    </div>
+                    <!--Image Card-->
+
                 </div>
                 <!--/.Second Column-->
-                
+
                 <!--Third Column-->
                 <div class="col-md-4">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-responsive" alt="">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h5>Whack-A-Mole</h5>
+                            <p>Take your frustrations out with Whack-A-Mole. Users have 30 seconds to hit as many moles as possible, but more join in the fun as the timer winds down. List your name and see if you can beat the high score. Whack-A-Mole was made with Java REST and MYSQL database for the backend to keep track of scores. The game itself. The front-end was made with JavaScript, HTML and CSS.</p>
+                        </div>
+                        <!--Buttons-->
+                        <div class="card-btn text-center">
+                            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Website</a>
+                            <a href="#" class="btn btn-default btn-md waves-effect waves-light">Github</a>
+                        </div>
+                        <!--/.Buttons-->
+                    </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.Third Column-->
+
+            </div>
+            <!--/.Second Row-->
+            <!--Second Row-->
+            <div class="row">
+
+                <!--First Column-->
+                <div class="col-md-4">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-responsive" alt="">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h5>Meta Clothing</h5>
+                            <p>Meta Clothing is an e-commerce web application. Users can create an account, login, and browse items. They can also add items to their shopping cart, as well as edit their address. Meta Clothing is made with Java RESTful API, Spring, JPA, MYSQL database. It is connected to a Node application on the client side. The front-end was created with HTML and CSS, and Bootstrap.</p>
+                        </div>
+                        <!--Buttons-->
+                        <div class="card-btn text-center">
+                            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Website</a>
+                            <a href="#" class="btn btn-default btn-md waves-effect waves-light">Github</a>
+                        </div>
+                        <!--/.Buttons-->
+                    </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.First Column-->
+
+                <!--Second Column-->
+                <div class="col-md-4">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-responsive" alt="">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                     <div class="card-content">
+                            <h5>companyRolodex</h5>
+                            <p>companyRolodex is a web application that connects to a company database. Users can see all employees, get specific information, add an employee, update their information, and delete if needed. companyRolodex is made with Java Spring MVC, JDBC and MYSQL database. The front-end was created with HTML and CSS</p>
+                        </div>
+                        <!--Buttons-->
+                        <div class="card-btn text-center">
+                            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Website</a>
+                            <a href="#" class="btn btn-default btn-md waves-effect waves-light">Github</a>
+                        </div>
+                        <!--/.Buttons-->
+                    </div>
+                    <!--Image Card-->
+
+                </div>
+                <!--/.Second Column-->
+
+                <!--Third Column-->
+                <div class="col-md-4">
+
+                    <!--Image Card-->
+                    <div class="card hoverable">
+                        <div class="card-image">
+                            <div class="view overlay hm-white-slight z-depth-1">
+                                <img src="http://mdbootstrap.com/images/reg/reg%20(2).jpg" class="img-responsive" alt="">
+                                <a href="#">
+                                    <div class="mask waves-effect"></div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h5>redCarpetClub</h5>
+                            <p>redCarpetClub is a web application that shows the AFI Top 100 Movies. Users can read, add, update, and delete movies. The redCarpetClub was made with Java Spring MVC in the backend. HTML and CSS was used in the front end. The information comes from AFI's Top 100 List</p>
+                        </div>
+                        <!--Buttons-->
+                        <div class="card-btn text-center">
+                            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Website</a>
+                            <a href="#" class="btn btn-default btn-md waves-effect waves-light">Github</a>
+                        </div>
+                        <!--/.Buttons-->
+                    </div>
+                    <!--Image Card-->
 
                 </div>
                 <!--/.Third Column-->
@@ -101,12 +270,39 @@
             </div>
             <!--/.Second Row-->
 
-        </div>
-        <!--/.Main Container-->
-
     </main>
-	<footer>
-		
-	</footer>
+<footer class="page-footer blue center-on-small-only">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="white-text">Shelby Escobedo</h5>
+                    <p class="grey-text text-lighten-4">Full Stack Developer</p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="white-text">Contact</h5>
+                    <ul>
+                        <li>(303) 807-7302</li>
+                        <li><a class="grey-text text-lighten-3" href="https://github.com/sescobedo621">Github</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/shelbyescobedo">LinkedIn</a></li>
+                        <li><a class="grey-text text-lighten-3" href="mailto:shelby.escobedo@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center rgba-black-light">
+            <div class="container-fluid">
+                © 2015 Copyright: <a href="shelbyescobedo.com">shelbyescobedo.com</a>
+            </div>
+        </div>
+    </footer>
+
+    	    <!-- JQuery -->
+    <script type="text/javascript" src="MDB_3.3.3/js/jquery.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="MDB_3.3.3/js/bootstrap.min.js"></script>
+
+    <!-- Material Design Bootstrap -->
+    <script type="text/javascript" src="MDB_3.3.3/js/mdb.js"></script>
 </body>
 </html>

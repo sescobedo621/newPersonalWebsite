@@ -1,0 +1,11 @@
+html,
+body {
+  height: 100%;
+}
+.full-bg-img {  
+    background: url("../../img/colorado.jpg") no-repeat center center fixed;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
